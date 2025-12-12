@@ -1,0 +1,119 @@
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body {
+    animation: fadeIn 2s forwards;
+}
+
+
+#navbar{
+    background-color: #452829;
+    color: tan;
+    font-family: 'merriweather', serif;
+}
+
+#title{
+    background-color: #452829;
+    color: tan;
+    font-family: 'merriweather', serif;
+    padding: 50px;
+    text-align: center;
+}
+
+h1{
+   font-family: 'merriweather', serif;
+   line-height: 1.5;
+   padding: 60px;
+}
+
+.myBtn{
+    font-family: 'merriweather', serif;
+    color: #452829;
+    background-color: #E8D1C5;
+    padding: 10px 20px;
+    outline-style: none;;
+    border-radius: 10px;
+}
+
+#about{
+    font-family: 'merriweather', serif;
+    background-color: #F7F4EF;
+    padding: 7% 10%;
+    text-align: center;
+}
+
+#experience{
+    font-family: 'merriweather', serif;
+    text-align: center;
+    background-color: #3a3c3f;
+    color: #EDE9E6;
+    padding: 7% 10%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 3%;
+}
+
+.icon{
+    margin-bottom: 2.5rem;
+}
+
+#exp{
+    font-style: italic;
+}
+
+#desc{
+    font-family: 'merriweather', serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-image img{
+   width: 300px;
+   height: 300px;
+   border-radius: 15px;
+}
+
+#stats-title{
+    font-family: 'merriweather', serif;
+    color: #452829;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+#stats{
+    font-family: 'merriweather', serif;
+    background-color: #F7F4EF;
+    color: #452829;
+    padding: 7% 5%;
+    text-align: center;
+}
+
+#contact{
+    font-family: 'merriweather', serif;
+    background-color: #3a3c3f;
+    color: #EDE9E6;
+    padding-top: 3rem;
+}
+
+h5{
+    font-family: 'merriweather', serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.icons{
+    padding: 2px 2px;
+}
